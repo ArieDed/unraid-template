@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/ArieDed/unraid-template/master/img/avatar.jpg</Icon>
+  <Profile>
+    Repository with some templates for useful Docker containers from Dockerhub that I use myself.
+  </Profile>
+  <DonateLink>https://www.paypal.me/arieded</DonateLink>
+  <DonateText>If you like my work please consider Donating.</DonateText>
+</Maintainer>
