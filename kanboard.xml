@@ -18,8 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1610831608</DateInstalled>
-  <DonateText>Buy me a coffee</DonateText>
-  <DonateLink>https://www.paypal.me/arieded</DonateLink>
+  <DonateText></DonateText>
+  <DonateLink></DonateLink>
   <Description>Kanboard is project management software that focuses on the Kanban methodology.</Description>
   <Networking>
     <Mode>bridge</Mode>
