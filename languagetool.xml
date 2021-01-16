@@ -15,7 +15,7 @@ LanguageTool can make use of large n-gram data sets to detect errors with words 
   <Category>Tools:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/ArieDed/unraid-template/main/languagetool/languagetool_icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/ArieDed/unraid-template/master/img/languagetool_icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
