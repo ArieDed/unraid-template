@@ -63,6 +63,6 @@ LanguageTool can make use of large n-gram data sets to detect errors with words 
   <Config Name="Host Port 1" Target="8010" Default="" Mode="tcp" Description="Container Port: 8010" Type="Port" Display="always" Required="false" Mask="false">8010</Config>
   <Config Name="Host Path 1" Target="/ngrams" Default="" Mode="rw" Description="Container Path: /ngrams" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/languagetool</Config>
   <Config Name="langtool ngrams" Target="langtool_languageModel" Default="" Mode="" Description="Container Variable: langtool_languageModel" Type="Variable" Display="always" Required="false" Mask="false">/ngrams</Config>
-  <Config Name="Java heap size Min" Target="Java_Xms" Default="256m" Mode="" Description="Container Variable: Java_Xms" Type="Variable" Display="always" Required="false" Mask="false">512m</Config>
-  <Config Name="Java heap size Max" Target="Java_Xmx" Default="512m" Mode="" Description="Container Variable: Java_Xmx" Type="Variable" Display="always" Required="false" Mask="false">2g</Config>
+  <Config Name="Java heap size Min" Target="Java_Xms" Default="256m" Mode="" Description="Container Variable: Java_Xms" Type="Variable" Display="always" Required="false" Mask="false">256m</Config>
+  <Config Name="Java heap size Max" Target="Java_Xmx" Default="512m" Mode="" Description="Container Variable: Java_Xmx" Type="Variable" Display="always" Required="false" Mask="false">512m</Config>
 </Container>
