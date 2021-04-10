@@ -17,9 +17,9 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1610831608</DateInstalled>
-  <DonateText></DonateText>
-  <DonateLink></DonateLink>
+  <DateInstalled>1618082962</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
   <Description>Kanboard is project management software that focuses on the Kanban methodology.</Description>
   <Networking>
     <Mode>bridge</Mode>
@@ -54,6 +54,11 @@
       <Name>PGID</Name>
       <Mode/>
     </Variable>
+    <Variable>
+      <Value>false</Value>
+      <Name>PLUGIN_INSTALLER</Name>
+      <Mode/>
+    </Variable>
   </Environment>
   <Labels/>
   <Config Name="Host Port 1" Target="80" Default="" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="false" Mask="false">8001</Config>
@@ -61,4 +66,5 @@
   <Config Name="plugins" Target="/var/www/app/plugins" Default="" Mode="rw" Description="Container Path: /var/www/app/plugins" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/kanboard/plugins</Config>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="Plugins" Target="PLUGIN_INSTALLER" Default="false" Mode="" Description="Set to 'true' to enable plugins right away." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
 </Container>
