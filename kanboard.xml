@@ -15,7 +15,7 @@
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/ArieDed/unraid-template/master/img/kanboard_logo.png</Icon>
   <ExtraParams/>
-  <PostArgs/>
+  <PostArgs>cp -u /var/www/app/config.php /var/www/app/data/config.php</PostArgs>
   <CPUset/>
   <DateInstalled>1618082962</DateInstalled>
   <DonateText/>
